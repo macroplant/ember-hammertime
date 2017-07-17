@@ -10,7 +10,8 @@ const {
 
 const FocusableInputTypes = ['button', 'submit', 'text', 'file'];
 const TouchActionSelectors = ['button', 'input', 'a', 'textarea'];
-const TouchActionProperties = 'touch-action: manipulation; -ms-touch-action: manipulation; cursor: pointer;';
+const TouchActionProperties = 'touch-action: manipulation; -ms-touch-action: manipulation;';
+// const TouchActionProperties = 'touch-action: manipulation; -ms-touch-action: manipulation; cursor: pointer;';
 
 function touchActionStyle() {
   let style = get(this, 'touchActionProperties');
